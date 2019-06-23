@@ -54,7 +54,7 @@ extension ViewController: BMGalleryDelegate {
 
 extension ViewController: BMGalleryDataSource {
     func bmGalleryDataSourceNumberOfItems(in galleryView: BMGallery) -> Int {
-        return 6
+        return datas.count
     }
     func bmGalleryDataSourceContentViewForItem(at: Int, contentView: UIView) {
         let subView = ThumbnailView.initWithType(datas[at])
