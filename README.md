@@ -8,12 +8,13 @@
 ## About
 BMGallery supplies a easy way to simply use, create a transition animation like TikTok, apply to a situation that a UICollectionCell push into a detail UIViewController.
 
-## Usage
-
+## DEMO
+<img src="https://github.com/tzef/BMGallery/blob/master/demo.gif">
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Usage
 #### Create a UIView extend BMGallery
 #### Implement BMGalleryDataSource and BMGalleryDelegate, assign to the gallery at the same time
 #### Set the layout of the gallery (there are two options: aspect and fixHeight)
