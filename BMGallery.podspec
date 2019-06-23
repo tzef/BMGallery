@@ -25,10 +25,10 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LEE ZHE YU' => 'tzef8220@gmail.com' }
-  s.source           = { :git => 'https://github.com/tzef/BMGallery/demo.gif', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/tzef/BMGallery/blob/master/demo.gif', :tag => s.version.to_s }
+  s.social_media_url = 'https://www.linkedin.com/in/yuzhe/'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'BMGallery/Classes/**/*'
   
