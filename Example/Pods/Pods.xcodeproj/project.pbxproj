@@ -14,6 +14,14 @@
 		7C8AF10B7E247421978EB013BC61D4B2 /* Pods-BMGallery_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2829F5F862CD253DCDBF71373EC6EF3 /* Pods-BMGallery_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A53A2EB357F2DC57ED6AA80F3740E5C /* BMGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883EB1252C82A889EF3FBC7B15CAA9A /* BMGallery-dummy.m */; };
 		C2B6DFF2DB8AB15F2DC16950D3001395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C9F650DD22BF6A27002A8069 /* BMGalleryTransitioningDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650DC22BF6A27002A8069 /* BMGalleryTransitioningDestination.swift */; };
+		C9F650DF22BF6A55002A8069 /* BMGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650DE22BF6A55002A8069 /* BMGallery.swift */; };
+		C9F650E122BF6AB4002A8069 /* BMGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650E022BF6AB4002A8069 /* BMGalleryCell.swift */; };
+		C9F650E322BF6AD3002A8069 /* BMGalleryCollectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650E222BF6AD3002A8069 /* BMGalleryCollectionAdapter.swift */; };
+		C9F650E522BF6B20002A8069 /* BMGalleryTransitioningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650E422BF6B20002A8069 /* BMGalleryTransitioningController.swift */; };
+		C9F650E722BF6B96002A8069 /* BMGalleryPushAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650E622BF6B96002A8069 /* BMGalleryPushAnimatedTransitioning.swift */; };
+		C9F650E922BF6BD3002A8069 /* BMGalleryPopAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650E822BF6BD3002A8069 /* BMGalleryPopAnimatedTransitioning.swift */; };
+		C9F650ED22BF6C61002A8069 /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F650EC22BF6C61002A8069 /* String+Size.swift */; };
 		D2A9A1D90E911DDA99A865F71316FBEC /* BMGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 023F9760C86BD4F48370DF4A49A42839 /* BMGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD0725A1D09EE1C18621E9EAACD7174E /* Pods-BMGallery_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CCCC68516FBBCDCD2569961C1DF8D6 /* Pods-BMGallery_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +69,14 @@
 		B6BB50A6EFA1C549FB8F1FEE9E01731C /* Pods-BMGallery_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BMGallery_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C21DE51FEE1AF452BFAE6554411A3BEB /* Pods-BMGallery_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BMGallery_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C971FE77CBEAEBF6630263859E9586B5 /* Pods-BMGallery_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BMGallery_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C9F650DC22BF6A27002A8069 /* BMGalleryTransitioningDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGalleryTransitioningDestination.swift; sourceTree = "<group>"; };
+		C9F650DE22BF6A55002A8069 /* BMGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGallery.swift; sourceTree = "<group>"; };
+		C9F650E022BF6AB4002A8069 /* BMGalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGalleryCell.swift; sourceTree = "<group>"; };
+		C9F650E222BF6AD3002A8069 /* BMGalleryCollectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGalleryCollectionAdapter.swift; sourceTree = "<group>"; };
+		C9F650E422BF6B20002A8069 /* BMGalleryTransitioningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGalleryTransitioningController.swift; sourceTree = "<group>"; };
+		C9F650E622BF6B96002A8069 /* BMGalleryPushAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGalleryPushAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		C9F650E822BF6BD3002A8069 /* BMGalleryPopAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMGalleryPopAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		C9F650EC22BF6C61002A8069 /* String+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
 		D3139ABF3FC007C209B2E0E0DA523915 /* Pods-BMGallery_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BMGallery_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D7CCCC68516FBBCDCD2569961C1DF8D6 /* Pods-BMGallery_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BMGallery_Example-dummy.m"; sourceTree = "<group>"; };
 		DDA5ADD231ABCE66060B9082A7AE7EF7 /* Pods-BMGallery_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BMGallery_Example.modulemap"; sourceTree = "<group>"; };
@@ -189,8 +205,40 @@
 		C9F650DA22BF690E002A8069 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C9F650EA22BF6C40002A8069 /* Extension */,
+				C9F650DB22BF69F9002A8069 /* Transitioning */,
+				C9F650DE22BF6A55002A8069 /* BMGallery.swift */,
+				C9F650E022BF6AB4002A8069 /* BMGalleryCell.swift */,
+				C9F650E222BF6AD3002A8069 /* BMGalleryCollectionAdapter.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		C9F650DB22BF69F9002A8069 /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				C9F650DC22BF6A27002A8069 /* BMGalleryTransitioningDestination.swift */,
+				C9F650E422BF6B20002A8069 /* BMGalleryTransitioningController.swift */,
+				C9F650E622BF6B96002A8069 /* BMGalleryPushAnimatedTransitioning.swift */,
+				C9F650E822BF6BD3002A8069 /* BMGalleryPopAnimatedTransitioning.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		C9F650EA22BF6C40002A8069 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9F650EB22BF6C54002A8069 /* String */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C9F650EB22BF6C54002A8069 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C9F650EC22BF6C61002A8069 /* String+Size.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -320,6 +368,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					4C8C4AD7175F1A53269BF0546B6ECB31 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -377,6 +430,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F650E322BF6AD3002A8069 /* BMGalleryCollectionAdapter.swift in Sources */,
+				C9F650ED22BF6C61002A8069 /* String+Size.swift in Sources */,
+				C9F650E722BF6B96002A8069 /* BMGalleryPushAnimatedTransitioning.swift in Sources */,
+				C9F650E522BF6B20002A8069 /* BMGalleryTransitioningController.swift in Sources */,
+				C9F650DD22BF6A27002A8069 /* BMGalleryTransitioningDestination.swift in Sources */,
+				C9F650E922BF6BD3002A8069 /* BMGalleryPopAnimatedTransitioning.swift in Sources */,
+				C9F650E122BF6AB4002A8069 /* BMGalleryCell.swift in Sources */,
+				C9F650DF22BF6A55002A8069 /* BMGallery.swift in Sources */,
 				8A53A2EB357F2DC57ED6AA80F3740E5C /* BMGallery-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9982158F34FBE962037C2D1321EECC6C /* BMGallery.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -497,7 +559,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -699,6 +762,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9982158F34FBE962037C2D1321EECC6C /* BMGallery.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -719,7 +783,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

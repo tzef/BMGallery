@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BMGallery'
   s.version          = '0.1.0'
-  s.summary          = 'Supply a way to simply use, create a transition animation like TikTok, between controllers.'
+  s.summary          = 'Supply a way to simply use, create a transition animation like TikTok, apply to a situation that a UICollectionCell push into a detail UIViewController.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
