@@ -25,12 +25,10 @@ Supply a way to simply use, create a transition animation like TikTok, apply to 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LEE ZHE YU' => 'tzef8220@gmail.com' }
-  s.source           = { :git => 'https://github.com/tzef/BMGallery/blob/master/demo.gif', :tag => s.version.to_s }
-  s.social_media_url = 'https://www.linkedin.com/in/yuzhe/'
-
+  s.source           = { :git => 'https://github.com/tzef/BMGallery.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'BMGallery/Classes/**/*'
+  s.source_files = 'Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'BMGallery' => ['BMGallery/Assets/*.png']
