@@ -1,0 +1,6 @@
+framework module BMGallery {
+  umbrella header "BMGallery-umbrella.h"
+
+  export *
+  module * { export * }
+}

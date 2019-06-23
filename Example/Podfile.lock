@@ -1,0 +1,16 @@
+PODS:
+  - BMGallery (0.1.0)
+
+DEPENDENCIES:
+  - BMGallery (from `../`)
+
+EXTERNAL SOURCES:
+  BMGallery:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BMGallery: 04d0ce6d28d8d60e53c7d15bae731029f722d307
+
+PODFILE CHECKSUM: 86407666126e55815a555505f43fd0bc46eb3442
+
+COCOAPODS: 1.7.2
